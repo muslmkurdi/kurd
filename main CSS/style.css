@@ -1,0 +1,156 @@
+/* start navbar   */
+.navbar{
+    letter-spacing: 0.1rem;
+    background: rgba(0, 0, 0, 0.7)!important;
+    font-size: 1rem;
+}
+.navbar-brand img{
+    height: 2rem;
+}
+.navbar-nav li{
+    padding-right: 1rem;
+}
+.navbar .navbar-nav .nav-link{
+    color: white;    
+}
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:hover{
+    color:#1ebba3;
+}
+/* end navbar */
+/* start landing page */
+.home-inner {
+    background-image: url(computers.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* Ensure element has height */
+    width: 100%; /* Ensure full width */
+}
+.caption{
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.caption h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 0.3rem;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+.caption h4{
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.6rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+.btn-lg{
+    border-width: medium;
+    border-radius: 0rem;
+    padding: 0.6rem 1.2rem;
+}
+/* end landing page */
+#course{
+    padding: 3rem;
+}
+ /* start features */
+#features{
+    background-color: rgb(220, 220, 220);
+    padding: 3rem;
+}
+.container .row h6{
+    margin-top: 4rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+ /* end features */
+
+  /* start resource */
+ .resource-section{
+    background-image: url(dark.jpg);
+    background-color: rgba(0, 0, 0, 0.616);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 5rem;
+    height: auto;
+    width: 100%;
+}
+.container .row img{
+    margin-top: 4rem;
+}
+/* end resource */
+
+/* start clients */
+.clients .container-fluid{
+    background-color: rgb(89, 89, 89);
+    color: rgb(254, 254, 254);
+    padding: 5rem;
+}
+/* end clients */
+.bootstrap{
+    padding: 3rem;
+}
+/* start contact */
+.footer {
+    background-color: #323131;
+    color: #fff;
+    padding: 3rem;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: 00f66f;
+}
+.footer .container-fluid .paragraph{
+ padding: 1rem;
+}
+.footer .social-icons a {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+.footer .social-icons a:hover {
+    color: #00f66f;
+}
+.copyright{
+    width: 100%;
+    margin-top: 3rem;
+    border-top: 0.2rem solid #00f66f;
+}
+
+@media (max-width: 767px) {
+    .caption h1{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+    .caption h4{
+        font-size: 1rem;
+        font-weight: 500;
+        padding-bottom: 1.6rem;
+        text-shadow: 0.1rem 0.1rem 0.5rem black;
+    }
+    .btn-lg{
+        border-width: medium;
+        border-radius: 0rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .clients .container-fluid{
+        margin-right: 5rem;
+    }
+    .clients .container-fluid h3{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .clients .container-fluid p{
+        font-size: 0.8rem;
+    }
+}
